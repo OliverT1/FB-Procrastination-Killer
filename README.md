@@ -1,2 +1,2 @@
-# YT_blocker
-Chrome extension to block any videos mentioning a keyword
+# FB-Procrastination-Killer
+Chrome extension to remove news feed and stories from facebook.
