@@ -1,0 +1,14 @@
+{
+    "name": "Facebook Newsfeed Killer",
+    "version": "0.1",
+    "description": "Removes the newsfeed and stories from facebook",
+    "content_scripts": [
+        {
+            "matches": [ "*://*.facebook.com/" ],
+            "js": ["jquery.min.js", "block.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": ["storage"],
+    "manifest_version": 2
+}
