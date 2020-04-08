@@ -4,7 +4,7 @@
     "description": "Removes the newsfeed and stories from facebook",
     "content_scripts": [
         {
-            "matches": [ "*://*.facebook.com/" ],
+            "matches": [ "*://*.facebook.com/*" ],
             "js": ["jquery.min.js", "block.js"],
             "run_at": "document_start"
         }
